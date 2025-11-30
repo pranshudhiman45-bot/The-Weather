@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>The Weather</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="shortcut icon" href="/Images/favicon-32x32.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <nav>
+                <img src="/Images/logo.svg" alt="">
+                <button class="button1"> <span><i class="fa-solid fa-gear"></i></span>Units <img
+                        src="/Images/icon-dropdown.svg" alt="^"> </button>
+            </nav>
+            <div id="heading1">
+                <h1>How's the sky looking today ?</h1>
+            </div>
+            <div class="search-bar">
+
+                <div id="serach2"> <span id="icon1"> <i class="fa-solid fa-magnifying-glass"></i></span>
+                    <input type="search" placeholder=" Search for a place">
+                </div>
+                <div> <button>Search</button></div>
+
+            </div>
+            <div class="right-bar">
+                <div>
+                    <div class="section1">
+                        <div class="pic1">
+                            <h2>Berline,Germany</h2>
+                            <p>Tuesday, August 5, 2025</p>
+                        </div>
+                        <div class="pics">
+                            <img src="/Images/icon-sunny.webp" alt="">
+                        </div>
+                        <div class="degree">
+                            <h1>20˚</h1>
+
+                        </div>
+                    </div>
+                    <div class="flex-colum">
+                        <!-- <div class="section-2">
+                            <div class="section-colum">
+                                <h2>Feels Like</h2>
+                                <h2>18˚</h2>
+                            </div>
+
+                        </div>
+                        <div class="section-2">
+                            <div class="section-colum">
+                                <h2>Feels Like</h2>
+                                <h2>18˚</h2>
+                            </div>
+
+                        </div> -->
+                        <div class="container-2">
+                            <div class="section-2">
+                                <div class="inside-1">
+                                    <h3>Feels Like</h34>
+                                        <h2>18˚</h2>
+
+                                </div>
+                            </div>
+                            <div class="section-2">
+                                <div class="inside-1">
+                                    <h3>Humidity</h3>
+                                    <h2>46%</h2>
+
+                                </div>
+                            </div>
+                            <div class="section-2">
+                                <div class="inside-1">
+                                    <h3>Wind</h3>
+                                    <h2>14 km/h</h2>
+
+                                </div>
+                            </div>
+                            <div class="section-2">
+                                <div class="inside-1">
+                                    <h3>Precipition</h3>
+                                    <h2>0 mm</h2>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <h3 id="last-section">Daily forecast</h3>
+                        <div class="container-3">
+                            <div class="section-3">
+                                <div class="inside-2">
+                                    <h3>Tue</h3>
+                                    <img class="inside-pic" src="/Images/icon-rain.webp" alt="">
+                                    <div class="degree-12">
+                                        <p>20˚</p>
+                                        <p>14˚</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="section-3">
+                                <div class="inside-2">
+                                    <h3>Wed</h3>
+                                    <img class="inside-pic" src="/Images/icon-drizzle.webp" alt="">
+                                    <div class="degree-12">
+                                        <p>21˚</p>
+                                        <p>15˚</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="section-3">
+                                <div class="inside-2">
+                                    <h3>Thu</h3>
+                                    <img class="inside-pic" src="/Images/icon-sunny.webp" alt="">
+                                    <div class="degree-12">
+                                        <p>24˚</p>
+                                        <p>13˚</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="section-3">
+                                <div class="inside-2">
+                                    <h3>fri</h3>
+                                    <img class="inside-pic" src="/Images/icon-partly-cloudy.webp" alt="">
+                                    <div class="degree-12">
+                                        <p>25˚</p>
+                                        <p>13˚</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="section-3">
+                                <div class="inside-2">
+                                    <h3>Sat</h3>
+                                    <img class="inside-pic" src="/Images/icon-storm.webp" alt="">
+                                    <div class="degree-12">
+                                        <p>21˚</p>
+                                        <p>15˚</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="section-3">
+                                <div class="inside-2">
+                                    <h3>Sun</h3>
+                                    <img class="inside-pic" src="/Images/icon-snow.webp" alt="">
+                                    <div class="degree-12">
+                                        <p>25˚</p>
+                                        <p>16˚</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="section-3">
+                                <div class="inside-2">
+                                    <h3>Mon</h3>
+                                    <img class="inside-pic" src="/Images/icon-fog.webp" alt="">
+                                    <div class="degree-12">
+                                        <p>24˚</p>
+                                        <p>15˚</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+
+                <div class="right-section">
+                    <div class="heading-side">
+                        <h1>Hourly Forecast</h1>
+                        <button id="button-side">Tuesday <img src="/Images/icon-dropdown.svg" alt=""></button>
+                    </div>
+                    <div class="sidebar1">
+                        <span> <img class="imgs" src="/Images/icon-overcast.webp" alt=""></span>
+                        <span>3 PM</span>
+                        <span id="degre-side">20˚</span>
+
+                    </div>
+                    <div class="sidebar1">
+                        <span> <img class="imgs" src="/Images/icon-partly-cloudy.webp" alt=""></span>
+                        <span>4 PM</span>
+                        <span id="degre-side">20˚</span>
+
+                    </div>
+                    <div class="sidebar1">
+                        <span> <img class="imgs" src="/Images/icon-sunny.webp" alt=""></span>
+                        <span>5 PM</span>
+                        <span id="degre-side">20˚</span>
+
+                    </div>
+                    <div class="sidebar1">
+                        <span> <img class="imgs" src="/Images/icon-partly-cloudy.webp" alt=""></span>
+                        <span>6 PM</span>
+                        <span id="degre-side">19˚</span>
+
+                    </div>
+                    <div class="sidebar1">
+                        <span> <img class="imgs" src="/Images/icon-snow.webp" alt=""></span>
+                        <span>7 PM</span>
+                        <span id="degre-side">18˚</span>
+
+                    </div>
+                    <div class="sidebar1">
+                        <span> <img class="imgs" src="/Images/icon-fog.webp" alt=""></span>
+                        <span>8 PM</span>
+                        <span id="degre-side">18˚</span>
+
+                    </div>
+                    <div class="sidebar1">
+                        <span> <img class="imgs" src="/Images/icon-snow.webp" alt=""></span>
+                        <span>9 PM</span>
+                        <span id="degre-side">17˚</span>
+
+                    </div>
+                    <div class="sidebar1">
+                        <span> <img class="imgs" src="/Images/icon-overcast.webp" alt=""></span>
+                        <span>10 PM</span>
+                        <span id="degre-side">17˚</span>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
